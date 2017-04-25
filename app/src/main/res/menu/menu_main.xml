@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.usuario.examenii_lpiii.Main">
+    <item
+        android:id="@+id/action_synchronize"
+        android:orderInCategory="100"
+        android:title="@string/action_synchronize"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="@string/action_edit"
+        android:icon="@drawable/ic_edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="@string/action_delete"
+        android:icon="@drawable/delete"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_activate"
+        android:orderInCategory="100"
+        android:title="@string/action_activate"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contacts"
+        android:orderInCategory="100"
+        android:title="@string/action_contacts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+</menu>
